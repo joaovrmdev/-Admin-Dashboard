@@ -446,7 +446,7 @@ main .recent-orders a {
     box-shadow: none;
 }
 
-.right .recent-updates .updates {
+.right .recent-updates .update {
     display: grid;
     grid-template-columns: 2.6rem auto;
     gap: 1rem;
