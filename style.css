@@ -378,7 +378,7 @@ main .recent-orders a {
     color: var(--color-primary);
 }
 
-/*---Menu lateral direito---*/
+/*---Right---*/
 .right {
     margin-top: 1.4rem;
 }
@@ -425,3 +425,30 @@ main .recent-orders a {
     text-align: right;
 }
 
+/*---Recent Updates---*/
+.right .recent-updates {
+    margin-top: 1rem;
+}
+
+.right .recent-updates h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .recent-updates .update:hover {
+    box-shadow: none;
+}
+
+.right .recent-updates .updates {
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
