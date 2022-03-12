@@ -442,7 +442,7 @@ main .recent-orders a {
     transition: all 300ms ease;
 }
 
-.right .recent-updates .update:hover {
+.right .recent-updates .updates:hover {
     box-shadow: none;
 }
 
