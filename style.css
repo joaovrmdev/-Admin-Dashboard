@@ -186,6 +186,10 @@ aside .sidebar a {
     transition: all 300ms ease;
 }
 
+aside .close{
+    color: var(--color-dark);
+}
+
 aside .sidebar a span {
     font-size: 1.6rem;
     transition: all 300ms ease;
