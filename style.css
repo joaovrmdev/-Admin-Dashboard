@@ -643,6 +643,10 @@ main .recent-orders a {
         display: inline;
     }
 
+    aside .close {
+        
+    }
+
     aside .sidebar a {
         width: 100%;
         height: 3.4rem;

@@ -6,12 +6,12 @@ themeToggler.querySelector('span').classList.toggle('active');
 
 //Show sidebar
 menuBtn.addEventListener('click', () =>{
-    sideMenu.style.display= 'block';
+    sideMenu.style.display = 'block';
 })
 
 //close sidebar
-closeBtn.addEventListener('click', () => {
-        sideMenu.style.display = 'active';
+closeBtn.addEventListener('click', () =>{
+    sideMenu.style.display = 'none';
 })
 
 //change theme
